@@ -1,6 +1,6 @@
 html, body, div, h1, p, img { margin: 0; }
 
-.container { min-width: 800px; width: 100%; font-family: sans-serif; }
+.container { min-width: 800px; width: 100%; font-family: sans-serif; background-color: #bdbdbd; }
 
 .menu {
     background-color: #7e57c2;
@@ -14,7 +14,7 @@ html, body, div, h1, p, img { margin: 0; }
 
 .about-me p {
     font-size: 15px;
-    text-align: right;
+    text-align: center;
     color: #757575;
     margin-bottom: 5px;
 }
@@ -65,13 +65,14 @@ html, body, div, h1, p, img { margin: 0; }
     height: 390px;
     border-radius: 50%;
     margin-bottom: 15px;
+    margin-top: 15px;
     display: block;
 }
 
 .photo__text {
-    text-align: right;
+    text-align: center;
     font-size: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .menu__item {
     font-size: 20px;
@@ -100,7 +101,7 @@ html, body, div, h1, p, img { margin: 0; }
 }
 
 .menu--theme_blue {
-    background-color: #01579b;
+    background-color: #607d8b;
 }
 .menu--theme_blue .menu__separator {
     color: #00b0ff;
@@ -108,4 +109,19 @@ html, body, div, h1, p, img { margin: 0; }
 
 .photo__text--grey {
     color: #757575;
+}
+
+.photo__text--size {
+    width: 50%;
+    height: 20px;
+    margin-bottom: 85px;
+}
+
+.table {
+    background-color: #d1c4e9;
+    width: 100%;
+}
+.leftcol {
+    width: 60%;
+    vertical-align: top 10px;
 }
